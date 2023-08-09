@@ -71,6 +71,7 @@ header.shadow {
 }
 .navbar {
   display: flex;
+  margin-bottom: 10px;
 }
 .navbar a {
   font-size: 1rem;
@@ -93,6 +94,7 @@ header.shadow {
 }
 .home {
   position: relative;
+  margin-top: 40px;
   width: 100%;
   min-height: 100vh;
   display: grid;

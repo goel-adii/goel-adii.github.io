@@ -31,9 +31,8 @@
     function sendEmail(){
     
         Email.send({
-            Host : "smtp.elasticemail.com",
-            Username : "adityagoel1011@gmail.com",
-            Password : "BED936848AC76AE71B3B93337EFD9E03BD03",
+            SecureToken:"492b95e3-03ec-48bd-9ad5-17f59abe4109",
+            
             From : document.getElementById("email").value,
             To : "adityagoel1011@gmail.com",
             Subject : "Contact Form Enquiry",
